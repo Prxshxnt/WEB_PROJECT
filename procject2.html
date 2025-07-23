@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .from{
+            background-color: rgb(252, 255, 151);
+            border-color: rgb(213, 164, 99);
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    <fieldset class="from"><u><h2>Job Application</h2></u>
+       <div>
+        <label for="name">Name:</label>
+        <br><br>
+        <input type="text" name="name" id="name" placeholder="Type here" >
+        <br>
+        <label for="email">Email:</label>
+        <br><br>
+        <input type="email" name="name" id="email" placeholder="Type here">
+        <br>
+        <label for="Phone">Phone:</label>
+        <br><br>
+        <input type="tel" id="Phone" placeholder="Tyep here">
+        <br>
+        <label for="Resume">Resume:</label>
+        <br><br>
+        <input type="file" id="Resume">
+        <br>
+        <label for="Exp">Exprience(year):</label>
+        <br><br>
+        <input type="number" placeholder="Enter" name="counter" min="0" max="50" id="Exp">
+        </div>
+
+        <div>
+        <fieldset style="width: 35%;">
+            <legend>Skills:</legend>
+           
+            <input type="checkbox" name="checkbox1" id="checkbox1" > 
+            <label for="checkbox1">HTML</label><br>
+
+            
+            <input type="checkbox" name="checkbox2" id="checkbox2">
+            <label for="checkbox2">CSS</label><br>
+            
+            <input type="checkbox" name="checkbox3" id="checkbox3">
+            <label for="checkbox3">Java Script</label>
+
+        </fieldset>
+        </div>
+        <div>
+        <label for="High edu">Higher Education:</label>
+        <br><br>
+        <select style="margin-bottom: -10px;" name="higher education" id="High edu">
+            <option value="select">Select</option>
+            <option value="High School">Hight School</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Graduation">Graduation</option>
+        </select>
+        </div>
+        <br>
+        <div>
+        <fieldset style="width: 35%;">
+        <legend>Availability:</legend>
+        <label for="radio1">Full-time</label>
+        <input type="radio" name="radio" id="avil">
+        <br>
+        <label for="radio2">Part-time</label>
+        <input type="radio" name="radio" id="avil2">
+        <br><br>
+        </fieldset>
+        </div>
+        <div>
+        <label for="textarea" >Additional Comments: </label>
+        <br>
+        <br>
+       <textarea name="textarea1" id="textarea" placeholder="Type here.."></textarea>
+       <input type="submit" value="Submit Application">
+        </div>
+    </fieldset>
+    </div>
+</body>
+</html>
